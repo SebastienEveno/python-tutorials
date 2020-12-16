@@ -24,7 +24,7 @@ if __name__ == "__main__":
     x_axis_config = {'title': 'Result', 'dtick': 1}
     y_axis_config = {'title': 'Frequency of Result'}
 
-    my_layout = Layout(title='Results of rolling two D8 1000 times',
+    my_layout = Layout(title='Results of rolling two D6 1000 times',
         xaxis=x_axis_config, yaxis=y_axis_config)
 
-    offline.plot({'data': data, 'layout': my_layout}, filename='d8_d8.html')
+    offline.plot({'data': data, 'layout': my_layout}, filename='d6_d6.html')
